@@ -49,14 +49,76 @@ void Zadacha3()
     }
     else
     {
-        Console.WriteLine(C);
+        Console.WriteLine("Остаток "+ C);
     }
        
 }
 
+//Программа, которая принимает на вход число и показывает кратно ли оно и 7 и 23
+void Zadacha4()
+{
+   Console.WriteLine("Введите число ");
+    int number = Convert.ToInt32(Console.ReadLine());
+    int C=number%7;
+    int B = number%23;
+    if (C==0 )
+    {
+        if(B == 0)
+        {
+            Console.WriteLine("Да, кратно");
+        }
+        else
+        {
+            Console.WriteLine("Нет, не кратно");
+        }
+    }
+    else
+    {
+      Console.WriteLine("Нет, не кратно");  
+    }
 
+}
 
+//Напишите программу которая принимает на вход два числа и проверяет, является ли одно число 
+//квадратом другого
+void Zadacha5()
+{
+    Console.WriteLine("Введите число 1");
+    int A = Convert.ToInt32(Console.ReadLine());
+    Console.WriteLine("Введите число 2");
+    int B = Convert.ToInt32(Console.ReadLine());
+    if (A*A == B)
+    {
+        Console.WriteLine("Первое число квадрат второго");
+    }
+    else if (B*B == A)
+        {
+        Console.WriteLine("Второе число явлется квадратом первого");
+        }
+        else 
+        {
+           Console.WriteLine("Числа не являются квадратами друг друга"); 
+        }
+    
+}
+
+void Zadacha6()
+{
+    Console.WriteLine("Введите число в диапазоне от 1 до 7");
+    int A = Convert.ToInt32(Console.ReadLine()); 
+    if (A==6 | A==7)
+    {
+        Console.WriteLine("Это выходной день");
+    }
+    else 
+    {
+        Console.WriteLine("Это не выходной день");
+    }
+}
 
 //Zadacha1();
 //Zadacha2();
 //Zadacha3();
+//Zadacha4();
+//Zadacha5();
+//Zadacha6();
