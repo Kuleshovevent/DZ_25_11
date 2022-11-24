@@ -105,4 +105,5 @@ void Zadacha4()
 //Zadacha1();
 //Zadacha2();
 //Zadacha3();
-Zadacha4();
+//Zadacha4();
+
