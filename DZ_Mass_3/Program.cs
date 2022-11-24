@@ -94,7 +94,7 @@ void Zadacha4()
     for(int i=1; i <= A; i++)
     {
         int B= Convert.ToInt32(Math.Pow(i,2));
-        Console.WriteLine(B);
+        Console.WriteLine($"{i}*{i}={B}");
     }
 }
 
@@ -105,4 +105,4 @@ void Zadacha4()
 //Zadacha1();
 //Zadacha2();
 //Zadacha3();
-//Zadacha4();
+Zadacha4();
